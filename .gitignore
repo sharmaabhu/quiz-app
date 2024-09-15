@@ -1,0 +1,30 @@
+# Ignore node_modules in frontend
+/frontend/node_modules
+
+# Ignore Composer vendor directory in backend
+/backend/vendor
+
+# Ignore environment files (optional, depending on your usage)
+*.env
+/frontend/.env
+/backend/.env
+
+# Ignore any lock files (optional, depending on your preference)
+frontend/package-lock.json
+backend/composer.lock
+
+# Ignore build artifacts
+/frontend/dist
+/frontend/.vite
+/backend/build
+
+# Ignore IDE-specific files (optional, depending on your development environment)
+/.vscode/
+/.idea/
+/*.iml
+
+# Ignore macOS specific files (if on macOS)
+.DS_Store
+
+# Ignore log files
+*.log
